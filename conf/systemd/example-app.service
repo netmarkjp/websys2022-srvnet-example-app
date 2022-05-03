@@ -1,7 +1,7 @@
 [Unit]
 Description=MySite server
-Wants=mysqld.service
-After=network.target remote-fs.target mysqld.service
+Wants=mysql.service
+After=network.target remote-fs.target mysql.service
 
 [Service]
 Type=simple
